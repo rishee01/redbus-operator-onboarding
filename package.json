@@ -1,0 +1,26 @@
+{
+  "name": "operator-onboarding",
+  "version": "1.0.0",
+  "description": "redBus Operator Onboarding - Node.js, Express, EJS, Webpack",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run build && node server.js",
+    "dev": "nodemon server.js",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "nodemon": "^3.0.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
